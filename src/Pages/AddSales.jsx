@@ -19,11 +19,11 @@ const AddSales = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSalesData((prev) => [...prev, salesItem]);
-    console.log(salesItem);
+    
     setSalesItem({ salesId: "", productName: "", quantity: "", amount: "" });
   };
 
-  console.log(TotalRevenue());
+
   return (
     <div className="addSales">
       <h1 className="text-center my-2">ADD SALES ENTRY</h1>

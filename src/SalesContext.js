@@ -19,7 +19,7 @@ export const SalesContextProvider = ({ children }) => {
       (acc, currentData) => acc + Number(currentData.amount),
       0
     );
-    console.log("Revenue : ", Revenue);
+    
     return Revenue;
   };
 

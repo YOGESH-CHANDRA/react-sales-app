@@ -2,7 +2,7 @@
 
 1. Create react app using npx create-react-app;
 2. Install react-router-dom and bootsrap from npm 
-3. import bootstrap module in index.js file for project.
+3. import bootstrap module in index.js file for project and import google font in index.css file.
 4. create all required componant as per assignment in src componant folder.
 5. Create major pages in src folder.
 6. routing is done in app.js file

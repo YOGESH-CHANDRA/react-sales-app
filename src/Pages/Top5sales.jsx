@@ -20,7 +20,7 @@ const Top5sales = () => {
   return (
     <div className="top5sales bg-secondary">
       <h1 className="text-center">TOP 5 SALES</h1>
-      <table class="table bg-white w-100">
+      <table className="table bg-white w-100">
         <thead className="border-bottom">
           <tr>
             <th scope="col">#</th>
