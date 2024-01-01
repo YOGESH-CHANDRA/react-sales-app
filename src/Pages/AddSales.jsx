@@ -1,20 +1,17 @@
 import { useSalesRecord } from "../SalesContext";
 
-
 // Add sales form component
 const AddSales = () => {
-  console.log(useSalesRecord);
   const SalesRecord = useSalesRecord();
-  console.log(SalesRecord);
-  const { salesItem, setSalesItem, salesData, setSalesData, TotalRevenue } =
-    SalesRecord;
+
+  const { salesItem, setSalesItem, setSalesData, TotalRevenue } = SalesRecord;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setSalesItem((prevData) => {
       return {
         ...prevData,
-        [name]: value,
+        [name]: value
       };
     });
   };

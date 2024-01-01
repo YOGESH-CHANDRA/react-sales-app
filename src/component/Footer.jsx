@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer bg-primary">
-        <h3 className="text-center text-white">Yogesh Chandra &copy; {(new Date()).getFullYear()}</h3>
+        <h5 className="text-center text-white"> Copyright &copy;Yogesh Chandra {(new Date()).getFullYear()}</h5>
       </div>
     </>
   );

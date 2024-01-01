@@ -1,0 +1,14 @@
+********************* Assignment No. 04 Sales App ******************************************************
+
+1. Create react app using npx create-react-app;
+2. Install react-router-dom and bootsrap from npm 
+3. import bootstrap module in index.js file for project.
+4. create all required componant as per assignment in src componant folder.
+5. Create major pages in src folder.
+6. routing is done in app.js file
+7. create central storage file SalesContext.js for avoid prop drilling and create custom hook function.
+8 connect all file to each other as per project requiremant,
+9. now app is running as per assignment.
+
+
+*************************************************************************************************************
